@@ -1,0 +1,648 @@
+*{
+	margin: 0;
+	padding:0;
+}
+.wrap{
+/*	position: relative;*/
+	 margin: 0 auto;
+}
+
+.header{
+	position: relative;
+	height: 966px;
+	width: 1920px;
+	background-image: url(img/header/1_HEADER_bg.jpg);
+	background-repeat: no-repeat; 
+}
+.logo{
+	height: 310px;
+	width: 652px;
+	background-image: url(img/header/1_HEADER_logo.png);
+	margin: 0 auto;
+}
+.title{
+	width: 809px;
+	height: 230px;
+	background-image: url(img/header/1_HEADER_head.png);
+	margin: 0 auto;
+	margin-bottom: 20px;
+	/*z-index: 100;*/
+	}
+.playBtn{
+	position: absolute;
+	height: 234px;
+	width: 565px;	
+	background-image: url(img/BTN_play_normal.png);
+	background-repeat: no-repeat; 
+	left: 677px;
+}
+.headBtn{
+	top: 510px;
+}
+.playBtn:hover{
+		background-image: url(img/BTN_play_hover.png);
+}
+.playBtn:active{
+		background-image: url(img/BTN_play_active.png);
+}
+.desc{
+	height: 90px;
+}
+.desc p{
+ font-size: 24px;
+  font-family: "Lora";
+  color: rgb(238, 238, 238);
+  line-height: 1.5;
+  text-align: center;
+  position: absolute;
+  left: 478.244px;
+  top: 746.597px;
+  width: 942px;
+  height: 171px;
+  
+}
+
+.scrollbtn{
+	position: absolute;
+	width: 102px;
+	height:66px;
+	background-image: url(img/BTN_scroll_normal.png);
+	bottom: 25px;
+	left: 915px;
+}
+.scrollbtn:hover{
+		background-image: url(img/BTN_scroll_hover.png);
+}
+.scrollbtn:active{
+		background-image: url(img/BTN_scroll_active.png);
+}
+
+
+/*BLOCK CHARS*/
+.chars{
+	position: relative;
+	height: 949px;
+	width: 1920px;
+	background-repeat: no-repeat; 
+}
+.Izo{
+    background-image: url(img/chars/2_CHARS_bg_Isolda.jpg);
+}
+.LL{
+    background-image: url(img/chars/2_CHARS_bg_Lleyn.jpg);
+}
+.Pam{
+    background-image: url(img/chars/2_CHARS_bg_Pamela.jpg);
+}
+/*.chars .scrollbtn{
+	position: absolute;
+	width: 102px;
+	height:66px;
+	background-image: url(img/BTN_scroll_normal.png);
+	bottom: 25px;
+	left: 915px;
+	
+}*/
+.charTitle{
+	position: absolute;
+	height: 148px;
+	width: 819px;
+	background-image: url(img/chars/2_CHARS_head.png);
+	left: 562px;
+	top: 15px;
+}
+.charInfo{
+	position: relative;
+	left: 390px;
+	top: 130px;
+	width: 415px;
+	height: 515px;
+	/* background: #000; */
+}
+.charName {
+	position: absolute;
+	background-repeat: no-repeat;
+	height: 179px;
+	width: 446px;
+	top: -50px;
+	left: -50px;
+}
+ .Izo .charName{background-image: url(img/chars/2_CHARS_name_Isolda.png);}
+ .LL .charName{background-image: url(img/chars/2_CHARS_name_Lleyn.png);}
+ .Pam .charName{background-image: url(img/chars/2_CHARS_name_Pamela.png);}
+
+.fracLogo{
+	position: absolute;
+	background-repeat: no-repeat;
+	top: 95px;
+	left: 4px;
+}
+.Izo .fracLogo{
+    background-image: url(img/chars/2_CHARS_fraction_Isolda.png);
+    height:32px;
+    width: 25px;
+}
+ .LL .fracLogo{
+     background-image: url(img/chars/2_CHARS_fraction_Lleyn.png);
+     height:28px;
+        width: 32px;
+}
+ .Pam .fracLogo{
+     background-image: url(img/chars/2_CHARS_fraction_Pamela.png);
+     height:32px;
+    width: 32px;
+}
+
+
+.fracName{
+	position: absolute;
+	font-size: 21px;
+	font-family: "Lora";
+	line-height: 1.333;
+	text-align: left;
+	text-shadow: 0px 5px 30px rgba(35, 27, 32, 0.004);
+	position: absolute;
+	left: 46px;
+	top: 95px;
+	width: 230px;
+	height: 81px;
+	/*z-index: 294;*/
+}
+.Izo .fracName{color: rgb(255, 50, 58);}
+.LL .fracName{color: rgb(255, 196, 25);}
+.Pam .fracName{color: rgb(202, 134, 255);}
+
+.charDesc{
+    font-size: 24px;
+    font-family: "Lora";
+    color: rgb(249, 244, 233);
+    line-height: 1.5;
+    text-align: left;
+    text-shadow: 0px 5px 30px rgba(35, 27, 32, 0.004);
+    position: absolute;
+    left: 0px;
+    top: 150px;
+    width: 480px;
+    height: 227px;
+    z-index: 178;
+}
+
+.skillIconFirst{
+	position: absolute;
+	background-image: url(img/chars/2_CHARS_skill_Isolda_1.png);
+	background-repeat: no-repeat;
+	width: 58px;
+	height:58px ;
+}
+.skillIconSecond{
+	position: absolute;
+	background-image: url(img/chars/2_CHARS_skill_Isolda_2.png);
+	background-repeat: no-repeat;
+	width: 58px;
+	height:58px ;
+}
+.Izo .skillIconFirst{background-image: url(img/chars/2_CHARS_skill_Isolda_1.png);}
+.LL .skillIconFirst{background-image: url(img/chars/2_CHARS_skill_Lleyn_1.png);}
+.Pam .skillIconFirst{background-image: url(img/chars/2_CHARS_skill_Pamela_1.png);}
+
+.Izo .skillIconSecond{background-image:url(img/chars/2_CHARS_skill_Isolda_2.png);}
+.LL .skillIconSecond{background-image:url(img/chars/2_CHARS_skill_Lleyn_2.png);}
+.Pam .skillIconSecond{background-image:url(img/chars/2_CHARS_skill_Pamela_2.png);}
+
+
+.skillFirst{
+	position: absolute;
+	top:350px;
+	height: 50px;
+}
+
+.skillSecond{
+	position: absolute;
+	top:435px;
+	height: 50px;
+}
+
+.skillName{
+	font-size: 24px;
+	font-family: "Lora";
+	color: rgb(249, 244, 233);
+	line-height: 1.5;
+	text-align: left;
+	position: absolute;
+	left: 80px;
+	top: -5px;
+	width: 300px;
+	height: 22px;
+	z-index: 275;
+ }
+
+.skillDesc{
+	font-size: 16px;
+	font-family: "Lora";
+	color: rgb(188, 190, 193);
+	line-height: 1.25;
+	text-align: left;
+	position: absolute;
+	left: 80px;
+	top: 35px;
+	width: 400px;
+	height: 16px;
+	z-index: 276;  
+}
+
+.charDescBot{
+	font-size: 26px;
+	font-family: "Lora";
+	color: rgb(249, 244, 233);
+	line-height: 1.5;
+	text-align: center;
+	position: absolute;
+	left: 377.285px;
+	top: 720px;
+	width: 1116px;
+	height: 95px;
+	z-index: 329;
+}
+/*GROUP LOGOS*/
+.charLogoGroup{
+	position: absolute;
+	width: 140px;
+	right: 335px;
+	top: 155px;
+}
+.charLogoOne{
+	background-repeat: no-repeat;
+	height: 140px;
+}
+.charLogoTwo{
+	background-repeat: no-repeat;
+	height: 140px;
+	margin-top: 40px; 
+}
+.charLogoThree{
+	background-repeat: no-repeat;
+	height: 140px;
+	margin-top: 40px; 
+}
+/*LOGO*/
+.Izo .charLogoOne{background-image: url(img/chars/2_CHARS_icon_Isolda_active.png);}
+.LL .charLogoOne{background-image: url(img/chars/2_CHARS_icon_Isolda_inactive.png);}
+.Pam .charLogoOne{background-image: url(img/chars/2_CHARS_icon_Isolda_inactive.png);}
+
+.Izo .charLogoTwo{background-image:url(img/chars/2_CHARS_icon_Pamela_inactive.png);}
+.LL .charLogoTwo{background-image:url(img/chars/2_CHARS_icon_Pamela_inactive.png);}
+.Pam .charLogoTwo{background-image:url(img/chars/2_CHARS_icon_Pamela_active.png);}
+
+
+.Izo .charLogoThree{background-image:url(img/chars/2_CHARS_icon_Lleyn_inactive.png);}
+.LL .charLogoThree{background-image:url(img/chars/2_CHARS_icon_Lleyn_active.png);}
+.Pam .charLogoThree{background-image:url(img/chars/2_CHARS_icon_Lleyn_inactive.png);}
+/*LOGO END*/
+
+/*HOVER LOGO*/
+.LL .charLogoOne:hover{background-image: url(img/chars/2_CHARS_icon_Isolda_hover.png);}
+.Pam .charLogoOne:hover{background-image: url(img/chars/2_CHARS_icon_Isolda_hover.png);}
+
+.Izo .charLogoTwo:hover{background-image:url(img/chars/2_CHARS_icon_Pamela_hover.png);}
+.LL .charLogoTwo:hover{background-image:url(img/chars/2_CHARS_icon_Pamela_hover.png);}
+
+.Izo .charLogoThree:hover{background-image:url(img/chars/2_CHARS_icon_Lleyn_hover.png);}
+.Pam .charLogoThree:hover{background-image:url(img/chars/2_CHARS_icon_Lleyn_hover.png);}
+/*HOVER LOGO end*/
+
+
+
+.scrollbtnLeft{
+	position: absolute;
+	width: 66px;
+	height:102px;
+	background-image: url(img/BTN_scroll_normalL.png);
+	background-repeat: no-repeat;
+	bottom: 480px;
+	left:  100px;
+	}
+.scrollbtnLeft:hover{
+	background-image: url(img/BTN_scroll_hoverL.png);
+}
+.scrollbtnLeft:active{
+	background-image: url(img/BTN_scroll_activeL.png);
+}	
+.scrollbtnRight{
+	position: absolute;
+	width: 66px;
+	height:102px;
+	background-image: url(img/BTN_scroll_normalR.png);
+	bottom: 480px;
+	right: 100px;
+	background-repeat: no-repeat;
+}
+.scrollbtnRight:hover{
+	background-image: url(img/BTN_scroll_hoverR.png);
+}
+.scrollbtnRight:active{
+	background-image: url(img/BTN_scroll_activeR.png);
+}	
+
+.video{
+	position: relative;
+	height:856px ;
+	width:1920px;
+}
+.videoTitle{
+	position: absolute;
+	height: 148px;
+	width: 819px;
+	background-image: url(img/video/3_VIDEO_head.png);
+	background-repeat: no-repeat;
+	left: 660px;
+	top: 15px;
+}
+.videoDesc{
+	position: absolute;
+  font-size: 18px;
+  font-family: "Lora";
+  color: rgb(249, 244, 233);
+  line-height: 1.5;
+  text-align: center;
+  left: 479.731px;
+  bottom: 120px;
+  width: 940px;
+  height: 45px;
+  z-index: 349;
+}
+.mount{
+	position: relative;
+	height: 993px;
+	width: 1920px;
+	background-image: url(img/mount/4_MOUNT_bg.jpg);
+	background-repeat: no-repeat;
+}
+.mountTitle{
+	position: absolute;
+	height: 92px;
+	width: 863px;
+	background-image: url(img/mount/4_MOUNT_head.png);
+	background-repeat: no-repeat;
+	left: 560px;
+	top: 15px;
+}
+.mountRateOne{
+	position: absolute;
+	height: 124px;
+	width: 520px;
+	background-image: url(img/mount/4_MOUNT_rating_30000.png);
+	background-repeat: no-repeat;
+	left: 290px;
+	bottom: 300px;
+}
+.mountRateTwo{
+	position: absolute;
+	height: 124px;
+	width: 520px;
+	background-image: url(img/mount/4_MOUNT_rating_150000.png);
+	background-repeat: no-repeat;
+	left: 1085px;
+	bottom: 300px;
+}
+.mountP{
+	font-size: 24px;
+	font-family: "Lora";
+	color: rgb(255, 196, 25);
+	line-height: 1.167;
+	text-align: center;
+	text-shadow: 0px 5px 30px rgba(35, 27, 32, 0.004);
+	position: absolute;
+	bottom: 250px;
+	width: 168px;
+	height: 82px;
+	z-index: 392
+}
+.pl{
+	left: 462px;
+}
+.pr{
+	left: 1260px;
+}
+.mountDesc{
+	position: absolute;
+	font-size: 24px;
+	font-family: "Lora";
+	color: rgb(249, 244, 233);
+	line-height: 1.5;
+	text-align: center;
+	left: 388.129px;
+	bottom: 120PX;
+	width: 1102px;
+	height: 132px;
+	z-index: 382;
+}
+
+
+.footer{
+	position: relative;
+	height: 900px;
+	width: 1920px;
+	background-image: url(img/footer/5_FOOTER_BG.jpg);
+	background-repeat: no-repeat;
+}
+.footBtn{
+	top: 170px;
+}
+.footerTitle{
+	position: absolute;
+	height: 149px;
+	width: 948px;
+	background-image: url(img/footer/5_FOOTER_head.png);
+	background-repeat: no-repeat;
+	left: 500px;
+	top: 15px;
+}
+.textShare{
+	font-size: 26px;
+	font-family: "Lora";
+	color: #f8f4e9;
+	line-height: 1.489;
+	text-align: center;
+	position: absolute;
+	left: 725px;
+	bottom:450px;
+	width: 482px;
+	height: 14px;
+	z-index: 444;
+}
+.shareLogos{
+	position: absolute;
+	height: 80px;
+	width: 392px;
+	/*background-color: blue;*/
+	margin-left: 780px;
+	top: 495px;
+}
+.shareLogo{
+	position: relative;
+	width: 83px;
+	height: 89px;
+	/*background-color: green;*/
+	float: left;
+	top: -5px;
+	margin-right: 15px;
+}
+/*SOCIAL MEDIA BEGIN*/
+.F{
+	background-image: url(img/footer/5_FOOTER_btn_fb_normal.png);
+	background-repeat: no-repeat;
+}
+.vk{
+	background-image: url(img/footer/5_FOOTER_btn_vk_normal.png);
+	background-repeat: no-repeat;
+}
+.od{
+	background-image: url(img/footer/5_FOOTER_btn_ok_normal.png);
+	background-repeat: no-repeat;
+}
+.dog{
+	background-image: url(img/footer/5_FOOTER_btn_mail_normal.png);
+	background-repeat: no-repeat;
+}
+.F:hover{
+	background-image: url(img/footer/5_FOOTER_btn_fb_hover.png);
+	background-repeat: no-repeat;
+}
+.vk:hover{
+	background-image: url(img/footer/5_FOOTER_btn_vk_hover.png);
+	background-repeat: no-repeat;
+}
+.od:hover{
+	background-image: url(img/footer/5_FOOTER_btn_ok_hover.png);
+	background-repeat: no-repeat;
+}
+.dog:hover{
+	background-image: url(img/footer/5_FOOTER_btn_mail_hover.png);
+	background-repeat: no-repeat;
+}
+.F:active{
+	background-image: url(img/footer/5_FOOTER_btn_fb_active.png);
+	background-repeat: no-repeat;
+}
+.vk:active{
+	background-image: url(img/footer/5_FOOTER_btn_vk_active.png);
+	background-repeat: no-repeat;
+}
+.od:active{
+	background-image: url(img/footer/5_FOOTER_btn_ok_active.png);
+	background-repeat: no-repeat;
+}
+.dog:active{
+	background-image: url(img/footer/5_FOOTER_btn_mail_active.png);
+	background-repeat: no-repeat;
+}
+
+/*SOCIAL MEDIA END*/
+
+.privacyText{
+	font-size: 14px;
+	font-family: "Lora";
+	color: #666666;
+	line-height: 1.489;
+	text-align: center;
+	position: absolute;
+	left: 720px;
+	bottom: 200px;
+	width: 482px;
+	height: 80px;
+	z-index: 444;
+}
+.privacyText a{
+font-size: 14px;
+  font-family: "Lora";
+  color: #666666;
+  text-decoration: underline;
+  line-height: 1.489;
+  text-align: center;
+  width: 217px;
+  height: 14px;
+  z-index: 443;
+font-weight: bold;
+}
+.footerLogo{
+	position: absolute;
+	height: 59px;
+	width: 149px;
+	background-image: url(img/footer/5_FOOTER_logo_101xp.png);
+	background-repeat: no-repeat;
+	left: 897px;
+	bottom: 120px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*!!!!!!!!!!!!*/
+.slideshow-container{
+	max-width: 1000px;
+	position: relative;
+	margin: auto;
+	height: 949px;
+
+}
+/*.prev, .next{
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: auto;
+	margin-top: -22px;
+	padding: 16px;
+	color:white;
+	font-weight: bold;
+	font-size: 18px;
+	transition: 0.6s ease;
+	border-radius: 0 3px 3px 0;
+}
+
+.next{
+	right: 8px;
+	border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover{
+	background-color: rgba(0,0,0,0.8);
+}*/
+.mySlides{
+	text-align: center;
+	max-height: 949px;
+    transition:1s;
+}
+
+
+
+.fade{
+	-webkit-animation-name: fade;
+	-webkit-animation-duration:2s;
+	animation-name:fade;
+	animation-duration:2s;
+  
+}
+/*@-webkit-keyframes fade{
+	0%{opacity:0.4;}
+	100%{opacity:1;}
+}*/
+@keyframes fade{
+	0%{opacity:0.4;}
+	100%{opacity:1;}
+}
+
+.slidershow-container{
+    position: relative;
+}
