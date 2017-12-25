@@ -11,19 +11,19 @@
 	position: relative;
 	height: 966px;
 	width: 1920px;
-	background-image: url(img/header/1_HEADER_bg.jpg);
+	background-image: url(img/HEADER/1_HEADER_bg.jpg);
 	background-repeat: no-repeat; 
 }
 .logo{
 	height: 310px;
 	width: 652px;
-	background-image: url(img/header/1_HEADER_logo.png);
+	background-image: url(img/HEADER/1_HEADER_logo.png);
 	margin: 0 auto;
 }
 .title{
 	width: 809px;
 	height: 230px;
-	background-image: url(img/header/1_HEADER_head.png);
+	background-image: url(img/HEADER/1_HEADER_head.png);
 	margin: 0 auto;
 	margin-bottom: 20px;
 	/*z-index: 100;*/
@@ -86,13 +86,13 @@
 	background-repeat: no-repeat; 
 }
 .Izo{
-    background-image: url(img/chars/2_CHARS_bg_Isolda.jpg);
+    background-image: url(img/CHARS/2_CHARS_bg_Isolda.jpg);
 }
 .LL{
-    background-image: url(img/chars/2_CHARS_bg_Lleyn.jpg);
+    background-image: url(img/CHARS/2_CHARS_bg_Lleyn.jpg);
 }
 .Pam{
-    background-image: url(img/chars/2_CHARS_bg_Pamela.jpg);
+    background-image: url(img/CHARS/2_CHARS_bg_Pamela.jpg);
 }
 /*.chars .scrollbtn{
 	position: absolute;
@@ -107,7 +107,7 @@
 	position: absolute;
 	height: 148px;
 	width: 819px;
-	background-image: url(img/chars/2_CHARS_head.png);
+	background-image: url(img/CHARS/2_CHARS_head.png);
 	left: 562px;
 	top: 15px;
 }
@@ -127,9 +127,9 @@
 	top: -50px;
 	left: -50px;
 }
- .Izo .charName{background-image: url(img/chars/2_CHARS_name_Isolda.png);}
- .LL .charName{background-image: url(img/chars/2_CHARS_name_Lleyn.png);}
- .Pam .charName{background-image: url(img/chars/2_CHARS_name_Pamela.png);}
+ .Izo .charName{background-image: url(img/CHARS/2_CHARS_name_Isolda.png);}
+ .LL .charName{background-image: url(img/CHARS/2_CHARS_name_Lleyn.png);}
+ .Pam .charName{background-image: url(img/CHARS/2_CHARS_name_Pamela.png);}
 
 .fracLogo{
 	position: absolute;
@@ -138,17 +138,17 @@
 	left: 4px;
 }
 .Izo .fracLogo{
-    background-image: url(img/chars/2_CHARS_fraction_Isolda.png);
+    background-image: url(img/CHARS/2_CHARS_fraction_Isolda.png);
     height:32px;
     width: 25px;
 }
  .LL .fracLogo{
-     background-image: url(img/chars/2_CHARS_fraction_Lleyn.png);
+     background-image: url(img/CHARS/2_CHARS_fraction_Lleyn.png);
      height:28px;
         width: 32px;
 }
  .Pam .fracLogo{
-     background-image: url(img/chars/2_CHARS_fraction_Pamela.png);
+     background-image: url(img/CHARS/2_CHARS_fraction_Pamela.png);
      height:32px;
     width: 32px;
 }
@@ -189,25 +189,25 @@
 
 .skillIconFirst{
 	position: absolute;
-	background-image: url(img/chars/2_CHARS_skill_Isolda_1.png);
+	background-image: url(img/CHARS/2_CHARS_skill_Isolda_1.png);
 	background-repeat: no-repeat;
 	width: 58px;
 	height:58px ;
 }
 .skillIconSecond{
 	position: absolute;
-	background-image: url(img/chars/2_CHARS_skill_Isolda_2.png);
+	background-image: url(img/CHARS/2_CHARS_skill_Isolda_2.png);
 	background-repeat: no-repeat;
 	width: 58px;
 	height:58px ;
 }
-.Izo .skillIconFirst{background-image: url(img/chars/2_CHARS_skill_Isolda_1.png);}
-.LL .skillIconFirst{background-image: url(img/chars/2_CHARS_skill_Lleyn_1.png);}
-.Pam .skillIconFirst{background-image: url(img/chars/2_CHARS_skill_Pamela_1.png);}
+.Izo .skillIconFirst{background-image: url(img/CHARS/2_CHARS_skill_Isolda_1.png);}
+.LL .skillIconFirst{background-image: url(img/CHARS/2_CHARS_skill_Lleyn_1.png);}
+.Pam .skillIconFirst{background-image: url(img/CHARS/2_CHARS_skill_Pamela_1.png);}
 
-.Izo .skillIconSecond{background-image:url(img/chars/2_CHARS_skill_Isolda_2.png);}
-.LL .skillIconSecond{background-image:url(img/chars/2_CHARS_skill_Lleyn_2.png);}
-.Pam .skillIconSecond{background-image:url(img/chars/2_CHARS_skill_Pamela_2.png);}
+.Izo .skillIconSecond{background-image:url(img/CHARS/2_CHARS_skill_Isolda_2.png);}
+.LL .skillIconSecond{background-image:url(img/CHARS/2_CHARS_skill_Lleyn_2.png);}
+.Pam .skillIconSecond{background-image:url(img/CHARS/2_CHARS_skill_Pamela_2.png);}
 
 
 .skillFirst{
@@ -285,29 +285,29 @@
 	margin-top: 40px; 
 }
 /*LOGO*/
-.Izo .charLogoOne{background-image: url(img/chars/2_CHARS_icon_Isolda_active.png);}
-.LL .charLogoOne{background-image: url(img/chars/2_CHARS_icon_Isolda_inactive.png);}
-.Pam .charLogoOne{background-image: url(img/chars/2_CHARS_icon_Isolda_inactive.png);}
+.Izo .charLogoOne{background-image: url(img/CHARS/2_CHARS_icon_Isolda_active.png);}
+.LL .charLogoOne{background-image: url(img/CHARS/2_CHARS_icon_Isolda_inactive.png);}
+.Pam .charLogoOne{background-image: url(img/CHARS/2_CHARS_icon_Isolda_inactive.png);}
 
-.Izo .charLogoTwo{background-image:url(img/chars/2_CHARS_icon_Pamela_inactive.png);}
-.LL .charLogoTwo{background-image:url(img/chars/2_CHARS_icon_Pamela_inactive.png);}
-.Pam .charLogoTwo{background-image:url(img/chars/2_CHARS_icon_Pamela_active.png);}
+.Izo .charLogoTwo{background-image:url(img/CHARS/2_CHARS_icon_Pamela_inactive.png);}
+.LL .charLogoTwo{background-image:url(img/CHARS/2_CHARS_icon_Pamela_inactive.png);}
+.Pam .charLogoTwo{background-image:url(img/CHARS/2_CHARS_icon_Pamela_active.png);}
 
 
-.Izo .charLogoThree{background-image:url(img/chars/2_CHARS_icon_Lleyn_inactive.png);}
-.LL .charLogoThree{background-image:url(img/chars/2_CHARS_icon_Lleyn_active.png);}
-.Pam .charLogoThree{background-image:url(img/chars/2_CHARS_icon_Lleyn_inactive.png);}
+.Izo .charLogoThree{background-image:url(img/CHARS/2_CHARS_icon_Lleyn_inactive.png);}
+.LL .charLogoThree{background-image:url(img/CHARS/2_CHARS_icon_Lleyn_active.png);}
+.Pam .charLogoThree{background-image:url(img/CHARS/2_CHARS_icon_Lleyn_inactive.png);}
 /*LOGO END*/
 
 /*HOVER LOGO*/
-.LL .charLogoOne:hover{background-image: url(img/chars/2_CHARS_icon_Isolda_hover.png);}
-.Pam .charLogoOne:hover{background-image: url(img/chars/2_CHARS_icon_Isolda_hover.png);}
+.LL .charLogoOne:hover{background-image: url(img/CHARS/2_CHARS_icon_Isolda_hover.png);}
+.Pam .charLogoOne:hover{background-image: url(img/CHARS/2_CHARS_icon_Isolda_hover.png);}
 
-.Izo .charLogoTwo:hover{background-image:url(img/chars/2_CHARS_icon_Pamela_hover.png);}
-.LL .charLogoTwo:hover{background-image:url(img/chars/2_CHARS_icon_Pamela_hover.png);}
+.Izo .charLogoTwo:hover{background-image:url(img/CHARS/2_CHARS_icon_Pamela_hover.png);}
+.LL .charLogoTwo:hover{background-image:url(img/CHARS/2_CHARS_icon_Pamela_hover.png);}
 
-.Izo .charLogoThree:hover{background-image:url(img/chars/2_CHARS_icon_Lleyn_hover.png);}
-.Pam .charLogoThree:hover{background-image:url(img/chars/2_CHARS_icon_Lleyn_hover.png);}
+.Izo .charLogoThree:hover{background-image:url(img/CHARS/2_CHARS_icon_Lleyn_hover.png);}
+.Pam .charLogoThree:hover{background-image:url(img/CHARS/2_CHARS_icon_Lleyn_hover.png);}
 /*HOVER LOGO end*/
 
 
@@ -352,7 +352,7 @@
 	position: absolute;
 	height: 148px;
 	width: 819px;
-	background-image: url(img/video/3_VIDEO_head.png);
+	background-image: url(img/VIDEO/3_VIDEO_head.png);
 	background-repeat: no-repeat;
 	left: 660px;
 	top: 15px;
@@ -374,14 +374,14 @@
 	position: relative;
 	height: 993px;
 	width: 1920px;
-	background-image: url(img/mount/4_MOUNT_bg.jpg);
+	background-image: url(img/MOUNT/4_MOUNT_bg.jpg);
 	background-repeat: no-repeat;
 }
 .mountTitle{
 	position: absolute;
 	height: 92px;
 	width: 863px;
-	background-image: url(img/mount/4_MOUNT_head.png);
+	background-image: url(img/MOUNT/4_MOUNT_head.png);
 	background-repeat: no-repeat;
 	left: 560px;
 	top: 15px;
@@ -390,7 +390,7 @@
 	position: absolute;
 	height: 124px;
 	width: 520px;
-	background-image: url(img/mount/4_MOUNT_rating_30000.png);
+	background-image: url(img/MOUNT/4_MOUNT_rating_30000.png);
 	background-repeat: no-repeat;
 	left: 290px;
 	bottom: 300px;
@@ -399,7 +399,7 @@
 	position: absolute;
 	height: 124px;
 	width: 520px;
-	background-image: url(img/mount/4_MOUNT_rating_150000.png);
+	background-image: url(img/MOUNT/4_MOUNT_rating_150000.png);
 	background-repeat: no-repeat;
 	left: 1085px;
 	bottom: 300px;
@@ -442,7 +442,7 @@
 	position: relative;
 	height: 900px;
 	width: 1920px;
-	background-image: url(img/footer/5_FOOTER_BG.jpg);
+	background-image: url(img/FOOTER/5_FOOTER_BG.jpg);
 	background-repeat: no-repeat;
 }
 .footBtn{
@@ -452,7 +452,7 @@
 	position: absolute;
 	height: 149px;
 	width: 948px;
-	background-image: url(img/footer/5_FOOTER_head.png);
+	background-image: url(img/FOOTER/5_FOOTER_head.png);
 	background-repeat: no-repeat;
 	left: 500px;
 	top: 15px;
@@ -489,51 +489,51 @@
 }
 /*SOCIAL MEDIA BEGIN*/
 .F{
-	background-image: url(img/footer/5_FOOTER_btn_fb_normal.png);
+	background-image: url(img/FOOTER/5_FOOTER_btn_fb_normal.png);
 	background-repeat: no-repeat;
 }
 .vk{
-	background-image: url(img/footer/5_FOOTER_btn_vk_normal.png);
+	background-image: url(img/FOOTER/5_FOOTER_btn_vk_normal.png);
 	background-repeat: no-repeat;
 }
 .od{
-	background-image: url(img/footer/5_FOOTER_btn_ok_normal.png);
+	background-image: url(img/FOOTER/5_FOOTER_btn_ok_normal.png);
 	background-repeat: no-repeat;
 }
 .dog{
-	background-image: url(img/footer/5_FOOTER_btn_mail_normal.png);
+	background-image: url(img/FOOTER/5_FOOTER_btn_mail_normal.png);
 	background-repeat: no-repeat;
 }
 .F:hover{
-	background-image: url(img/footer/5_FOOTER_btn_fb_hover.png);
+	background-image: url(img/FOOTER/5_FOOTER_btn_fb_hover.png);
 	background-repeat: no-repeat;
 }
 .vk:hover{
-	background-image: url(img/footer/5_FOOTER_btn_vk_hover.png);
+	background-image: url(img/FOOTER/5_FOOTER_btn_vk_hover.png);
 	background-repeat: no-repeat;
 }
 .od:hover{
-	background-image: url(img/footer/5_FOOTER_btn_ok_hover.png);
+	background-image: url(img/FOOTER/5_FOOTER_btn_ok_hover.png);
 	background-repeat: no-repeat;
 }
 .dog:hover{
-	background-image: url(img/footer/5_FOOTER_btn_mail_hover.png);
+	background-image: url(img/FOOTER/5_FOOTER_btn_mail_hover.png);
 	background-repeat: no-repeat;
 }
 .F:active{
-	background-image: url(img/footer/5_FOOTER_btn_fb_active.png);
+	background-image: url(img/FOOTER/5_FOOTER_btn_fb_active.png);
 	background-repeat: no-repeat;
 }
 .vk:active{
-	background-image: url(img/footer/5_FOOTER_btn_vk_active.png);
+	background-image: url(img/FOOTER/5_FOOTER_btn_vk_active.png);
 	background-repeat: no-repeat;
 }
 .od:active{
-	background-image: url(img/footer/5_FOOTER_btn_ok_active.png);
+	background-image: url(img/FOOTER/5_FOOTER_btn_ok_active.png);
 	background-repeat: no-repeat;
 }
 .dog:active{
-	background-image: url(img/footer/5_FOOTER_btn_mail_active.png);
+	background-image: url(img/FOOTER/5_FOOTER_btn_mail_active.png);
 	background-repeat: no-repeat;
 }
 
@@ -568,7 +568,7 @@ font-weight: bold;
 	position: absolute;
 	height: 59px;
 	width: 149px;
-	background-image: url(img/footer/5_FOOTER_logo_101xp.png);
+	background-image: url(img/FOOTER/5_FOOTER_logo_101xp.png);
 	background-repeat: no-repeat;
 	left: 897px;
 	bottom: 120px;
